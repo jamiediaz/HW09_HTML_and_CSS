@@ -1,0 +1,44 @@
+body{
+    background:gray; 
+}
+.navbar {
+    background: white;
+    height:80px;
+}
+.latitude {
+    background: teal;
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    padding-top:20px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    margin-left:50px;
+    color: white;
+    font-size: 20px;
+}
+
+.plots {
+    position: absolute;
+    
+    margin-left:80%;
+    
+}
+
+.companion {
+    
+    position:absolute;
+    margin-left:85%;
+}
+
+
+
+.delta {
+    position:absolute;
+    margin-left:93%;
+}
+.summary{
+    position: absolute;
+    margin-left:35px;
+}

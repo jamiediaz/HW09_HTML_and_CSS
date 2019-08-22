@@ -1,9 +1,12 @@
 body{
-    background:gray; 
+    background:rgb(209, 208, 208); 
 }
 .navbar {
     background: white;
     height:80px;
+    border-style: dotted;
+
+    
 }
 .latitude {
     background: teal;
@@ -41,4 +44,15 @@ body{
 .container{
     position: absolute;
     margin-left:35px;
+    margin-top:20px;
+    border-style: dotted;
+    
+}
+.summary{
+    color:teal;
+    background: white;
+    font-size:30px;
+    font-weight: 600;
+    border-style: dashed;
+    
 }

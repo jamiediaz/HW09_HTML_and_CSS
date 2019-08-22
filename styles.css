@@ -20,25 +20,25 @@ body{
 }
 
 .plots {
-    position: absolute;
-    
+    position: relative;
     margin-left:80%;
+    
     
 }
 
 .companion {
     
-    position:absolute;
-    margin-left:85%;
+    position:relative;
+    margin-left:1px;
 }
 
 
 
 .delta {
-    position:absolute;
-    margin-left:93%;
+    position:relative;
+    margin-left:1px;
 }
-.summary{
+.container{
     position: absolute;
     margin-left:35px;
 }

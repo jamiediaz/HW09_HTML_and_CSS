@@ -4,7 +4,7 @@ body{
 .navbar {
     background: white;
     height:80px;
-    border-style: dotted;
+
 
     
 }
@@ -22,11 +22,16 @@ body{
     font-size: 20px;
 }
 
-.plots {
+.dropdown-toggle {
     position: relative;
     margin-left:80%;
+       
     
-    
+}
+
+.dropdown-menu {
+    position:relative;
+    margin-left:80%;
 }
 
 .companion {
@@ -43,9 +48,9 @@ body{
 }
 .container{
     position: absolute;
-    margin-left:35px;
-    margin-top:20px;
-    border-style: dotted;
+    margin-left:50px;
+    margin-top:40px;
+    
     
 }
 .summary{
@@ -53,6 +58,16 @@ body{
     background: white;
     font-size:30px;
     font-weight: 600;
-    border-style: dashed;
+    padding-left: 20px;
+    
     
 }
+
+.picture{
+    
+}
+
+.blah{
+    
+}
+

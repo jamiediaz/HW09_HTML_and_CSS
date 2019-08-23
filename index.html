@@ -5,42 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.3.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 
 </head>
 <body>
-       
-    <nav class = "navbar">
-            <div class="latitude" >
+    
+        <nav class = "navbar">
+                <div class="latitude" >
                     Lattitude
                 </div>
-        <div class ="plots"> Plots </div>
-        <div class ="companion">Companion</div>
-        <div class ="delta">Delta</div>
+                
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                <div class ="companion">
+                    Companion
+                </div>
+                <div class ="delta">
+                    Delta
+                </div>
             </nav>
-    
-    <!-- <div class = "big_square"> -->
-            <div class="container">
-            <div class = "first_row">    
-                <div class = "col-md-12">
-                    <div class = "summary">Summary</div>
-                </div>
-            </div>
-            <div class = "second_row">
-                <div class = "col-md-3">
-                    <div class = "picture">
-                            <img src = "Resources\assets\images\Fig1.png" height="300" width="500">
-                    </div>    
-                <div class = "col-md-3">
-                    <div class = "blah">blah blah blah blah
-                    </div>
-                </div>
-            </div>
-        
-    <!-- </div> -->
 
-        
+    <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="summary">Summary</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="picture">
+                        <img src = "Resources\assets\images\Fig1.png" height="300" width="500">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blah">blah blah</div>
+            </div>
+            
+        </div>    
+
 </body>
 </html>

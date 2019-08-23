@@ -2,13 +2,19 @@ body{
     background:rgb(209, 208, 208); 
 }
 .navbar {
+    position: relative;
     background: white;
-    height:80px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+
+
 
 
     
-}
-.latitude {
+
+.lattitude {
     background: teal;
     position: absolute;
     width: 100px;
@@ -22,29 +28,52 @@ body{
     font-size: 20px;
 }
 
+@media(min-width:100px) {
+    .navbar-left {
+        float: left!important
+    }
+    .navbar-right {
+        float: right!important
+    }
+}
+/* 
 .dropdown-toggle {
-    position: relative;
-    margin-left:80%;
-       
+    position: absolute;
+    margin-left:50%;
+    margin-right:800px;
+    padding: 5px; 
+    padding: 8px 16px;
+    float: right!important;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+        
     
 }
 
 .dropdown-menu {
-    position:relative;
+    
+    position: relative;
     margin-left:80%;
+    margin-right:20% 
 }
 
 .companion {
     
-    position:relative;
-    margin-left:1px;
+    position:absolute;
+     margin-left:85%; 
+    margin-right:100px;
+    padding: 5px;
 }
 
 
 
 .delta {
-    position:relative;
-    margin-left:1px;
+    position:absolute;
+     margin-left:91%; 
+    margin-right:10px;
+    padding: 5px;
 }
 .container{
     position: absolute;
@@ -52,6 +81,15 @@ body{
     margin-top:40px;
     
     
+}*/
+.main_box_frame{
+    
+    
+    margin-left:35px;
+    margin-right:675px;
+
+
+
 }
 .summary{
     color:teal;
@@ -59,15 +97,12 @@ body{
     font-size:30px;
     font-weight: 600;
     padding-left: 20px;
+    margin-top:50px;
     
     
-}
-
-.picture{
     
 }
 
-.blah{
-    
-}
+
+
 

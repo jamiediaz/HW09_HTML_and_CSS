@@ -84,8 +84,8 @@ body{
 }*/
 .main_box_frame{
     
-    
-    margin-left:35px;
+    margin-top: 40px;
+    margin-left:50px;
     margin-right:675px;
 
 
@@ -97,9 +97,13 @@ body{
     font-size:30px;
     font-weight: 600;
     padding-left: 20px;
-    margin-top:50px;
+    padding-top:10px
     
     
+}
+
+.white_back{
+    background:white;
     
 }
 

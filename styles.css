@@ -29,9 +29,9 @@ body{
 }
 
 @media(min-width:100px) {
-    .navbar-left {
+    /* .navbar-left {
         float: left!important
-    }
+    } */
     .navbar-right {
         float: right!important
     }

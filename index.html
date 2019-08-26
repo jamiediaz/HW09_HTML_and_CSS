@@ -17,28 +17,30 @@
 </head>
 
 <body>
-        
+
+
+
     <nav class="navbar">
         <div class="latitude">
-            Latitude
+            <a href="index.html" style="color:white">Latitude</a>
         </div>
         <div class="container">
-
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Plots <b
                             class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Max Temperature</a></li>
-                        <li><a href="#">Humidity</a></li>
-                        <li><a href="#">Cloudiness</a></li>
-                        <li><a href="#">Wind Speed</a></li>
+                        <li><a href="max_temp.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind_speed.html">Wind Speed</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Companion</a></li>
-                <li><a href="#">Delta</a></li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
             </ul>
         </div>
     </nav>
+
 
 
 
@@ -65,14 +67,19 @@
                                 <img src="Resources/assets/images/Fig1.png " height="50%" width="50%"
                                     style="float:left!important">
                                 <p>
-                                    The purpose of this project was to analyse how weather changes as you get closer to
-                                    the equator. To accomplish this, we first pulled data from OpenWeatherMap API to
+                                    The purpose of this project was to analyse how weather changes as you get
+                                    closer to
+                                    the equator. To accomplish this, we first pulled data from OpenWeatherMap
+                                    API to
                                     assemble a datasset on over 500 cities.
                                 </p>
-                                <p>After assembling the dataset, we used Matplotlib to plot various aspects of eather vs
-                                    latitude. Factors we looked at included: temperature, cloudiness, wind speed, and
+                                <p>After assembling the dataset, we used Matplotlib to plot various aspects of
+                                    eather vs
+                                    latitude. Factors we looked at included: temperature, cloudiness, wind
+                                    speed, and
                                     humidity. The site provides the source data and visualizations
-                                    created as part of the analysis, as well as explantions and descriptions of any
+                                    created as part of the analysis, as well as explantions and descriptions of
+                                    any
                                     trends and correlations witnessed.
                                 </p>
                             </div>
@@ -102,9 +109,9 @@
 
                     <div class="row small_box" style="background:white;">
                         <div class="col-lg-6">
-                            <div class="active_thumb">
-                                <img src="Resources/assets/images/Fig1.png " height="100%" width="100%">
-                            </div>
+
+                            <img src="Resources/assets/images/Fig1.png " height="100%" width="100%">
+
 
                         </div>
                         <div class="col-lg-6">
@@ -126,12 +133,17 @@
         </div>
     </div>
 
-    
 
 
-    <footer>
-            This is your footer.
-        </footer>
+
+
+    <footer class="big_footer">
+        <div class="small_footer">
+            Copyright Data Bootcamp 2017
+        </div>
+    </footer>
+
+
 
 
 

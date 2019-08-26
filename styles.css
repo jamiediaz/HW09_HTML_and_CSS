@@ -3,11 +3,15 @@ body {
 }
 
 .navbar {
-    position: relative;
+    
+    
     background: white;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    top:0;
+    width:100%;
+
 }
 
 .latitude {
@@ -22,6 +26,7 @@ body {
     margin-left: 50px;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 @media(min-width:100px) {
@@ -55,6 +60,7 @@ body {
     font-size: 40px;
     color: teal;
     padding: 20px;
+    font-weight: heavy;
 }
 
 .main_box {
@@ -75,21 +81,77 @@ body {
 .small_box {
     padding: 10px;
 }
+.small_words{
+    font-size:15px;
+    margin-left:30px;
+}
 
-html, body {
-    height: 100%;
-    margin: 0;
-  }
+.big_words{
+    font-size: 30px;
+    text-align:center;
+    color:teal;
+}
+   
 
-  footer {
-    background: gray;
-    height: 40px;
-    position: static;
-    margin-top:180px;
-    bottom: 0px;
-    
-    width: 100%;
-  }
+
+  
   .nav-down {
     bottom: -40px;
+
+  }
+.big_footer{
+    background:teal;
+    height: 40px;
+    position: fixed;
+    bottom:0px;
+    width:100%;
 }
+
+.small_footer{
+    background:darkslategray;
+    height:30px;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    color:white;
+    text-align: center;
+
+}
+
+/* html, .page {
+    height: 100%; /* needed for proper layout */
+    /* margin:0px;
+    border:0px;
+  }
+  
+  body {
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page-header {
+    flex: 0 0 auto;
+    margin:0px;
+    
+  }
+  
+  .page-content {
+    flex: 1 1 auto; */
+    /* position: relative; need this to position inner content */
+/*     
+    overflow-y: auto;
+    border:0px; 
+    margin:0px;
+  }
+  
+  .page-footer {
+    flex: 0 0 auto;
+    
+  } */ */

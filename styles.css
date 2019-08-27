@@ -118,40 +118,21 @@ body {
 
 }
 
-/* html, .page {
-    height: 100%; /* needed for proper layout */
-    /* margin:0px;
-    border:0px;
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background:white;
+    max-width: auto;
   }
   
-  body {
+  th, td {
+    text-align: left;
+    padding: 8px;
   }
   
-  p {
-    margin-bottom: 1em;
-  }
+  tr:nth-child(even) {background-color: #c2c2c2;}
   
-  .page {
-    display: flex;
-    flex-direction: column;
+  .dataframe{
+    border:1px;
+    background:white;
   }
-  
-  .page-header {
-    flex: 0 0 auto;
-    margin:0px;
-    
-  }
-  
-  .page-content {
-    flex: 1 1 auto; */
-    /* position: relative; need this to position inner content */
-/*     
-    overflow-y: auto;
-    border:0px; 
-    margin:0px;
-  }
-  
-  .page-footer {
-    flex: 0 0 auto;
-    
-  } */ */
